@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.header div:first-child {
+  background-color: #1cd1b0;
+  padding: 10px;
+  height: 38px;
+}
+
+.header div:last-child {
+  background-color: #00669f;
+  font-size: 40px;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  padding: 10px 28px;
+  height: 101 px;
+}
+
+section {
+  max-width: 834px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  max-width: 374px;
+  text-align: center;
+  background-color: #f3f3f3;
+  box-shadow: 0px 2px 2px #c1c1c1;
+}
+
+.card div:first-child {
+  background-image: url("./img/backBatman.png");
+  height: 217px;
+  position: relative;
+}
+
+.card.arlequina div:first-child {
+  background-image: url("./img/backArle.png");
+}
+
+.card div img.coracao {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.card div img.hero {
+  position: absolute;
+  bottom: -30%;
+  right: 32%;
+}
+
+.card div img.hero {
+  border-radius: 50%;
+}
+
+.card.arlequina div img.hero {
+  border-radius: 50%;
+}
+
+.card div h2 {
+  margin-top: 80px;
+  margin-bottom: 29px;
+}
+
+.card div p {
+  height: 125px;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.card div button {
+  font-size: 15px;
+  padding: 18px 42px;
+  background-color: #00669f;
+  border: none;
+  color: #f3f3f3;
+  margin-bottom: 30px;
+}
+
+footer {
+  width: 100%;
+  padding: 10px;
+  background-color: #00669f;
+  color: #f3f3f3;
+}
